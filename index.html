@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LensFlair | Photography Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-content">
+            <div class="logo">Lens<span>Flair</span></div>
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Capturing Life's Beautiful Moments</h1>
+            <p>Professional photography for weddings, portraits, events, and commercial projects</p>
+            <a href="#contact" class="btn">Book a Session</a>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Portfolio</h2>
+            </div>
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="portrait">Portraits</button>
+                <button class="filter-btn" data-filter="wedding">Weddings</button>
+                <button class="filter-btn" data-filter="nature">Nature</button>
+                <button class="filter-btn" data-filter="urban">Urban</button>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="portrait">
+                    <img src="images/Artistic_Portrait.png" alt="Portrait Photography">
+                    <div class="gallery-item-overlay">
+                        <h3>Portrait</h3>
+                        <p>Elegant and expressive</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="wedding">
+                    <img src="images/Couple.png" alt="Wedding Photography">
+                    <div class="gallery-item-overlay">
+                        <h3>Wedding</h3>
+                        <p>Memorable moments</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="nature">
+                    <img src="images/Cliffs.png" alt="Nature Photography">
+                    <div class="gallery-item-overlay">
+                        <h3>Nature</h3>
+                        <p>Beautiful landscapes</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="urban">
+                    <img src="images/Dusky_City.png" alt="Urban Photography">
+                    <div class="gallery-item-overlay">
+                        <h3>Urban</h3>
+                        <p>Cityscapes & architecture</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="urban">
+                    <img src="images/City.png" alt="Urban Photography 2">
+                    <div class="gallery-item-overlay">
+                        <h3>Urban</h3>
+                        <p>Night lights & streets</p>
+                    </div>
+                </div>
+                 <div class="gallery-item" data-category="nature">
+                    <img src="images/Coastal.png" alt="Nature Photography">
+                    <div class="gallery-item-overlay">
+                        <h3>Nature</h3>
+                        <p>Beautiful landscapes</p>
+                    </div>
+                <div class="gallery-item" data-category="wedding">
+                    <img src="images/Evening_Gathering.png" alt="Wedding Photography">
+                    <div class="gallery-item-overlay">
+                        <h3>Wedding</h3>
+                        <p>Joyful celebrations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/Shoreline.png" alt="Photographer">
+                </div>
+                <div class="about-text">
+                    <h2>Capturing Life Through My Lens</h2>
+                    <p>Hello! I'm Alex, a professional photographer with over 10 years of experience specializing in portrait, wedding, and commercial photography. My passion is to capture authentic moments and emotions that tell your unique story.</p>
+                    <p>I believe that great photography is not just about technical perfection, but about capturing the essence of the moment - the laughter, the tears, the joy, and the love that make life beautiful.</p>
+                    <p>My work has been featured in several publications and exhibitions, and I'm dedicated to providing my clients with beautiful, timeless images that they will cherish for years to come.</p>
+                    <a href="#contact" class="btn">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Client Testimonials</h2>
+            </div>
+            <div class="testimonial-container">
+                <div class="testimonial-slide active">
+                    <p class="testimonial-text">"Alex captured our wedding day perfectly! The photos are stunning and truly reflect the emotion and joy of our special day. We couldn't be happier with the results!"</p>
+                    <p class="testimonial-author">- Sarah & Michael</p>
+                </div>
+                <div class="testimonial-slide">
+                    <p class="testimonial-text">"The portrait session was amazing! Alex made me feel so comfortable and the photos turned out incredible. I've never looked better in pictures!"</p>
+                    <p class="testimonial-author">- Jennifer L.</p>
+                </div>
+                <div class="testimonial-slide">
+                    <p class="testimonial-text">"We hired Alex for our company's branding photos and were blown away by the quality and creativity. The images perfectly captured our brand's essence."</p>
+                    <p class="testimonial-author">- Mark T., CEO of NovaTech</p>
+                </div>
+                <div class="testimonial-nav">
+                    <button id="prev-testimonial"><i class="fas fa-chevron-left"></i> Prev</button>
+                    <button id="next-testimonial">Next <i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Me</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Photography St, New York, NY</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> hello@lensflair.com</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>LensFlair</h3>
+                    <p>Professional photography services for all occasions. Capturing your special moments with creativity and passion.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul style="list-style: none;">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul style="list-style: none;">
+                        <li>Portrait Photography</li>
+                        <li>Wedding Photography</li>
+                        <li>Event Photography</li>
+                        <li>Commercial Photography</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 LensFlair Photography. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js">
+       
+    </script>
+</body>
+</html>
